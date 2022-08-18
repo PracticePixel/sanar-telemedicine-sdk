@@ -52,6 +52,8 @@ yarn sanar:setup
 
 #### Option 2
 
+Sanar Telemedicine works with below dependencies, run the below command in your project's root terminal 
+
 ```
 yarn add https://github.com/PracticePixel/sanar-telemedicine-sdk.git https://github.com/PracticePixel/sanar-rtc.git react-native-webview react-native-svg react-native-gesture-handler react-native-device-info
 ```
