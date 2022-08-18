@@ -26,14 +26,14 @@ Parameters
 - cid: string
 - info : [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-)
 
-## <SanarRTC /> : 
+## <SanarRTC /> 
 Sanar videocall frames to initiate videocall
 
 Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 enable | boolean | true | - | Enable / Disable RTC connection
 
-## <SanarBooking /> :
+## <SanarBooking />
 Telemedicine appointment booking flow
 Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
@@ -42,7 +42,7 @@ onEndFlow | callback | true | - | To handle enable property on booking finish
 lang | string | false | `en` | To Set language of the flow
 
 
-## <SanarAppointments /> :
+## <SanarAppointments />
 Telemedicine appointment list flow
 Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
