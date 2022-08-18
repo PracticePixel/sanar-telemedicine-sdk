@@ -23,7 +23,7 @@ Connect | func | yes | - | Accepts cid & user details and generate user info to 
 Parameters
 
 - cid: string
-- info : [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo)
+- info : [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-)
 
 ### SanarRTC: 
 Sanar videocall frames to initiate videocall
@@ -40,12 +40,12 @@ enable | boolean | false | - | To enable / disable telemedicine booking flow
 onEndFlow | callback | true | - | To handle enable property on booking finish
 
 
-### SanarChat:
-Telemedicine appointment booking flow
+### SanarAppointments:
+Telemedicine appointment list flow
 Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 enable | boolean | false | - | To enable / disable telemedicine booking flow
-onChatEnd | callback | true | - | To handle chat end event
+onEndFlow | callback | true | - | To handle enable property on booking finish
 
 
 ### UserInfo :
