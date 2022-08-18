@@ -1,6 +1,7 @@
 {
   "name": "react-native-sanar-telemedicine-rc",
   "version": "0.0.1",
+  "author": "Maren Tech",
   "description": "React Native Sanar Telemedicine",
   "homepage": "https://github.com/MarenTech/react-native-sanar-telemedicine-rc.git",
   "main": "lib/commonjs/index.js",
