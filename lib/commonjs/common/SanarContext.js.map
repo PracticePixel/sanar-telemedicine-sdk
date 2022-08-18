@@ -1,0 +1,1 @@
+{"version":3,"names":["SanarContext","React","createContext"],"sources":["SanarContext.js"],"sourcesContent":["import React from 'react'\n\nconst SanarContext = React.createContext()\n\nexport default SanarContext;"],"mappings":";;;;;;;AAAA;;;;AAEA,MAAMA,YAAY,gBAAGC,cAAA,CAAMC,aAAN,EAArB;;eAEeF,Y"}
