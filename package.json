@@ -5,7 +5,7 @@
   "homepage": "https://github.com/MarenTech/react-native-sanar-telemedicine-rc.git",
   "main": "lib/commonjs/index.js",
   "scripts": {
-    "prepare": "bob build"
+    
   },
   "keywords": [
     "Sanar",
