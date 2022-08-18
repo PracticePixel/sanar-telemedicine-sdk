@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.homepage     = package["homepage"]
 
   s.platforms    = { :ios => "10.0" }
-  s.source       = { :git => "https://github.com/AgoraIO-Community/react-native-agora.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/AgoraIO-Community/react-native-agora.git", :tag => "3.7.1" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
