@@ -47,7 +47,7 @@ Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 enable | boolean | false | - | To enable / disable telemedicine booking flow
 onEndFlow | callback | true | - | To handle enable property on booking finish
-lang | string | false | 'en' | To Set language of the flow
+lang | string | false | `en` | To Set language of the flow
 
 
 ### UserInfo :
