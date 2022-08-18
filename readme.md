@@ -7,7 +7,7 @@ React Native library for Sanar Telemedicine
 - ### [SanarTelemedicine](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#sanartelemedicine-)
 - ### [SanarRTC](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#sanarrtc)
 - ### [SanarBooking](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#sanarbooking)
-- ### [SanarChat](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#sanarchat)
+- ### [SanarAppointments](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#sanarappointments)
 
 ## Installation Steps
 
