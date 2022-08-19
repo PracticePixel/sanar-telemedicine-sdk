@@ -18,7 +18,7 @@ Create a Sanar config file `sanar.config.js` in your project root directory and 
 ```javascript
 const { exec } = require("child_process");
 
-exec("yarn add https://github.com/PracticePixel/sanar-telemedicine-sdk.git https://github.com/PracticePixel/sanar-rtc.git react-native-webview react-native-svg react-native-gesture-handler react-native-device-info", (error, stdout, stderr) => {
+exec("yarn add https://github.com/PracticePixel/sanar-telemedicine-sdk.git https://github.com/MarenTech/sanar-rtc.git react-native-webview react-native-svg react-native-gesture-handler react-native-device-info", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
