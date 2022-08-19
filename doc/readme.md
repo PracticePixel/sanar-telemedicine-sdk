@@ -55,18 +55,16 @@ onEndFlow | callback | true | - | To handle enable property on booking finish
 ### UserInfo :
 Property | Description
 :--- | :---
-uid : string  | 
-did : string  | 
-first_name : string | 
-last_name : string  | 
-dob : string  | 
-gender : string  | 
-nationality : string | 
-document_id : string | 
-mid : string | 
-document_type: number | 
-phone_code : string  | 
-phone_no : string | 
-marital_status : string | 
+first_name : string | User first name
+last_name : string  | User last name
+dob : string  | dob in `yyyy-mm-dd`
+gender : string  | Gender `M` | `F`
+nationality : string | Nationality of User ex : Saudi Arabia.
+document_id : string | Document id
+mid : string | Medgulf id 
+document_type: number | Document Type
+phone_code : string  | Phone code ex : `966`
+phone_no : string | Phone Number
+marital_status : string | Marital status `0` : `Unmarried`, `1` : `Married`
 
 
