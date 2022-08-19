@@ -53,15 +53,20 @@ onEndFlow | callback | true | - | To handle enable property on booking finish
 
 
 ### UserInfo :
-- did : string 
-- uid : string 
-- first_name : string
-- last_name : string 
-- dob : string 
-- gender : string 
-- nationality : string
-- phone_code : string 
-- phone_no : string
-- marital_status : string
+Property | Description
+:--- | :---
+uid : string  | 
+did : string  | 
+first_name : string | 
+last_name : string  | 
+dob : string  | 
+gender : string  | 
+nationality : string | 
+document_id : string | 
+mid : string | 
+document_type: number | 
+phone_code : string  | 
+phone_no : string | 
+marital_status : string | 
 
 
