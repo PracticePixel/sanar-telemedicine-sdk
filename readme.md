@@ -11,8 +11,6 @@ React Native library for Sanar Telemedicine
 
 ## Installation Steps
 
-#### Option 1
-
 Create a Sanar config file `sanar.config.js` in your project root directory and copy the snippet
 
 ```javascript
@@ -48,14 +46,6 @@ npm run sanar:setup
 #### using yarn
 ```shell
 yarn sanar:setup
-```
-
-#### Option 2
-
-Sanar Telemedicine works with below dependencies, run the below command in your project's root terminal 
-
-```
-yarn add https://github.com/PracticePixel/sanar-telemedicine-sdk.git https://github.com/PracticePixel/sanar-rtc.git react-native-webview react-native-svg react-native-gesture-handler react-native-device-info
 ```
 
 ### IOS
@@ -103,7 +93,7 @@ const App = () => {
     const [bookingFlowStatus, setBookingFlowStatus] = useState(false);
 
     useEffect(() => {
-        SanarTelemedicine.Connect("your_client_id", {uid: "SMU6", did: "abcdefg"})
+        SanarTelemedicine.Connect("your_client_id", {})
         .then(response => {
             setConnect(response);
         }).catch(e => console.log(e));
@@ -123,7 +113,7 @@ const App = () => {
             onEndFlow={()=>setBookingFlowStatus(false)} />
 
          {/* Sanar RTC Component */}
-         <SanarRTC enable={connect}>
+         <SanarRTC enable={connect} />
 
 
         </>
@@ -152,6 +142,8 @@ export default App;
  ```
 
 
-You can see the documentation [here](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc)
+You follow Components detailed documentation [here](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc)
+
+Check Example for reference [TelemedicineExample](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/TelemedicineExample)
 
 
