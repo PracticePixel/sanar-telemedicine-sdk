@@ -23,8 +23,11 @@ Connect | callback | yes | - | Accepts client_id & user details and generate use
 Connect method properties are listed below 
 Parameters
 
-- cid: string
-- info : [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-)
+Property | Type | Required | Default value | Description
+:--- | :--- | :--- | :--- | :---
+cid | string | yes | - | Client Id provided by Sanar
+info | [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-) | yes | User properties to create session with Sanar
+lang | string | no | `en` | Language of the application
 
 ### SanarRTC : 
 Sanar videocall frames to initiate videocall
@@ -39,7 +42,6 @@ Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 enable | boolean | false | - | To enable / disable telemedicine booking flow
 onEndFlow | callback | true | - | To handle enable property on booking finish
-lang | string | false | `en` | To Set language of the flow
 
 
 ### SanarAppointments :
@@ -48,7 +50,6 @@ Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 enable | boolean | false | - | To enable / disable telemedicine booking flow
 onEndFlow | callback | true | - | To handle enable property on booking finish
-lang | string | false | `en` | To Set language of the flow
 
 
 ### UserInfo :
