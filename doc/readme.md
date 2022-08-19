@@ -26,7 +26,7 @@ Parameters
 Property | Type | Required | Default value | Description
 :--- | :--- | :--- | :--- | :---
 cid | string | yes | - | Client Id provided by Sanar
-info | [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-) | yes | User properties to create session with Sanar
+info | [UserInfo](https://github.com/PracticePixel/sanar-telemedicine-sdk/tree/master/doc#userinfo-) | yes | - | User properties to create session with Sanar
 lang | string | no | `en` | Language of the application
 
 ### SanarRTC : 
